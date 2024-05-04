@@ -103,7 +103,8 @@ body {
   margin-bottom: 1.5rem !important; }
 
 .u-margin-bottom-medium {
-  margin-bottom: 4rem !important; }
+  margin-top: .7rem;
+  margin-bottom: 1.4rem !important; }
 
 .u-margin-bottom-big {
   margin-bottom: 8rem !important; }
@@ -321,6 +322,7 @@ body {
     transform: scale(0.95); }
 
 .feature-box {
+  /* width: 3000px; */
   background-color: rgba(255, 255, 255, 0.8);
   font-size: 1.5rem;
   padding: 2.5rem;
@@ -360,7 +362,8 @@ body {
   .form__input:focus:invalid {
     border-bottom: 3px solid #ff7730; }
   .form__input::-webkit-input-placeholder {
-    color: #999; }
+    color: #999; 
+  }
 
 .form__label {
   font-size: 1.2rem;
@@ -756,7 +759,7 @@ body {
   background-size: 100%;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
-  height: 50rem; }
+  height: 56rem; }
   .book__form {
     width: 50%;
     padding: 6rem; }

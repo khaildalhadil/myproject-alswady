@@ -1,0 +1,126 @@
+/* custom scrollbar */
+body::-webkit-scrollbar-thumb {
+    background: linear-gradient(#00b678, #34bc87);
+}
+/* End of custom scrollbar */
+
+/* Testimonails */
+.testimonials {
+    width: 100%;
+    height: 100%;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.testmonials-header h1 {
+    font-family: 'mooli', cursive;
+    color: #092627;
+    font-size: 5rem;
+    letter-spacing: .2rem;
+    width: 70%;
+    margin: auto;
+}
+
+.testmonials-header {
+    align-items: center;
+    position: relative;
+}
+
+.stars {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    right: 15%;
+}
+
+.stars > span {
+    font-size: 5rem;
+    color: #00b67a;
+    margin-right: 1rem;
+}
+
+.trustpilot {
+    margin-top: 1rem;
+}
+
+.trustpilot > span {
+    font-size: 2.5rem;
+    color: #092627;
+    letter-spacing: .2rem;
+}
+
+.trustpilot div span {
+    color: #ffad00;
+    font-size: 3rem;
+    margin: 0 -0.25rem
+}
+
+.testimonials-wrapper {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10rem 0;
+}
+
+.testimonial {
+    width: 33rem;
+    height: 100%;
+    margin: 2rem;
+    box-shadow: 0 1rem 10rem rgba(130, 162, 235, .4);
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.testimoial-top {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin-bottom: 1.5rem;
+}
+
+
+.testimoial-top img {
+    width: 6rem;
+    height: 6rem;
+    object-fit: cover;
+    border-radius: 50%;
+    line-height: 8rem;
+}
+
+.testimoial-top span {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin-left: 2rem;
+    color: #5f8a8b;
+    letter-spacing: .1rem;
+    font-family: 'mooli', cursive;
+}
+
+.testimoial-body div {
+    margin: 1rem 0;
+}
+
+.testimoial-body div span {
+    font-size: 3rem;
+    color: #00b678;
+}
+
+.testimoial-body p:nth-child(2) {
+    font-size: 1.8rem;
+    font-family: 'mooli', cursive;
+    font-weight: bold;
+    color: #092627;
+    margin-bottom: 1rem;
+}
+
+.testimoial-body p:nth-child(3) {
+    font-size: 1.6rem;
+    font-weight:300;
+    color: #4d6c6d;
+    margin-bottom: 1rem;
+}
+/* End of  Testimonails */
