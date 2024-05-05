@@ -59,7 +59,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .testimonials-wrapper {
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

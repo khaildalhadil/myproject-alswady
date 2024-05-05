@@ -146,8 +146,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3;
 }
 
+.video__container.show-video {
+    opacity: 1;
+    visibility: visible;
+}
 .video {
     width: 900px;
     height: auto;
@@ -218,7 +225,10 @@
     /* padding:   0  0 10px 20px; */
     padding-top: 23px;
     background-color: rgba(0, 0, 0, .5);
+
 }
+
+
 
 .options {
     display: flex;
