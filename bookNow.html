@@ -48,7 +48,7 @@
     <section class="section-book">
                 <div class="row">
                     <div class="book">
-                        <div class="book__form">
+                        <div style="padding: 3rem;padding-top: 1rem;" class="book__form">
                             <form action="#" class="form">
                                 <div class="u-margin-bottom-medium">
                                     <h2 class="heading-secondary">
@@ -72,14 +72,16 @@
                                     <label for="number" class="form__label">Phone Number</label>
                                 </div>
 
-                                <div style="margin-bottom: 1rem;" class="form__group"  >
-                                    <select  class="form__input select" name="" id="">
+                                <div style="margin-bottom: -2rem;" class="form__group"  >
+                                    <input type="number" class="form__input"  placeholder="How many person" id="number" required>
+                                    <label for="number" class="form__label">How many person</label>
+                                    <!-- <select  class="form__input select" name="" id="">
                                         <option value="horse">chose your age group</option>
                                         <option value="horse">sener sectsen</option>
                                         <option value="horse">adult</option>
                                         <option value="horse">teenager</option>
                                         <option value="paragliding">chlid</option>
-                                    </select>
+                                    </select> -->
                                 </div>
                                 
                                 <div style="margin-bottom: 1rem;padding-top: 12px;" class="form__group"  >
@@ -93,7 +95,30 @@
                                         <option value="around">Around the Mountains</option>
                                     </select>
                                 </div>
-                                <p class="wrong--p" style="font-size: 16px; color: #ff7730; " ></p>
+
+                                <div style="font-size: 18px;margin-left: 6px;display: flex;gap: 44px;" class="form__group">
+                                    <div>
+                                        <p> chose your age group</p>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="adult" name="adult" value="adult">
+                                        <label for="adult">adult</label><br>
+                                        <input type="checkbox" id="sener" name="sener" value="sener">
+                                        <label for="sener">sener sectsen</label><br>
+                                        
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="teen" name="teen" value="teen">
+                                        <label  for="teen">teenager</label><br>
+                                        <input type="checkbox" id="chlid" name="chlid" value="chlid">
+                                        <label for="chlid">chlid</label>
+                                    </div>
+                                    
+                                </div>
+
+                                <span style="font-size: 18px;margin-right: 37px;" >Enter The date</span>
+                                <input class="date" style="width: 130px;" type="date" name="party" min="2024-06-01" max="2024-06-30" />
+                                <span class="wrong--p" style="font-size: 16px; color: #ff7730;margin-left: 20px;" ></span>
 
                                 <div style="padding-top: 12px;"  class="form__group">
                                     <button class="btn btn--green">Send &rarr;</button>

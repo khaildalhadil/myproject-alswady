@@ -70,9 +70,10 @@ btn.addEventListener('click', (e)=> {
 
     const modalH1 = document.querySelector('.modal--h1')
     const modalP = document.querySelector('.modal--p')
-    
+    const date = document.querySelector('.date').value
+
     modalH1.innerHTML = `Thinks You ${nameEl.value}`;
-    modalP.innerHTML = ` we will send an appointment \nin this number ${numberEl.value}\n for ${select.vlue} `
+    modalP.innerHTML = ` we will send an appointment \nin this number ${numberEl.value}\n for ${select.value} date ${date} `
     modal.classList.remove('hidden')
     overlay.classList.remove('hidden')
 })

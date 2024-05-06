@@ -72,3 +72,4 @@ volumeBtn.addEventListener('click', ()=> {
 
     volumeSlider.value = mainVedeo.volume
 })
+
